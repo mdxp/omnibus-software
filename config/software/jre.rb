@@ -16,7 +16,7 @@
 #
 
 name "jre"
-default_version "7u3-b04"
+default_version "7u51-b13"
 
 dependency "rsync"
 
@@ -38,7 +38,7 @@ else
          :warning => "By including the JRE, you accept the terms of the Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX, which can be found at http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
 end
 
-relative_path "jre1.7.0_03"
+relative_path "jre1.7.0_51"
 
 jre_dir = "#{install_dir}/embedded/jre"
 
