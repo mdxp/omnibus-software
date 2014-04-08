@@ -27,14 +27,14 @@ whitelist_file "jre/plugin"
 
 if OHAI.kernel['machine'] =~ /x86_64/
   # TODO: download x86 version on x86 machines
-  source :url => "http://download.oracle.com/otn-pub/java/jdk/7u3-b04/jre-7u3-linux-x64.tar.gz",
-         :md5 => "3d3e206cea84129f1daa8e62bf656a28",
-         :cookie => 'oraclelicensejre-7u3-oth-JPR=accept-securebackup-cookie;gpw_e24=http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html',
+  source :url => "http://download.oracle.com/otn-pub/java/jdk/7u51-b13/jdk-7u51-linux-x64.tar.gz",
+         :md5 => "764f96c4b078b80adaa5983e75470ff2",
+         :cookie => 'oraclelicensejre-7u51-oth-JPR=accept-securebackup-cookie;gpw_e24=http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html',
          :warning => "By including the JRE, you accept the terms of the Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX, which can be found at http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
 else
-  source :url => "http://download.oracle.com/otn-pub/java/jdk/7u3-b04/jre-7u3-linux-i586.tar.gz",
-         :md5 => "cfce10a05f8d152d39aef892f2cd4011",
-         :cookie => 'oraclelicensejre-7u3-oth-JPR=accept-securebackup-cookie;gpw_e24=http://www.oracle.com/technetwork/java/javase/downloads/jre-7u3-download-1501631.html',
+  source :url => "http://download.oracle.com/otn-pub/java/jdk/7u51-b13/jdk-7u51-linux-i586.tar.gz",
+         :md5 => "909d353c1caf6b3b54cc20767a7778ef",
+         :cookie => 'oraclelicensejre-7u51-oth-JPR=accept-securebackup-cookie;gpw_e24=http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html',
          :warning => "By including the JRE, you accept the terms of the Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX, which can be found at http://www.oracle.com/technetwork/java/javase/terms/license/index.html"
 end
 
